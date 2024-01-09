@@ -1617,10 +1617,8 @@ for (samples in c("Persistent nonHvG", "Tolerant HvG", "Missing HvG", "Acquired 
 
 
 ################################################################################
-我想看看分布在treg cluster 的那些 acquired HVG 是不是表达一些gene 指向他们失去了正常的Treg function 
-
-或者直接帮我做一下红蓝两组的 DE gene analysis 应该可以达到一样的效果 
-persistent nonHVG in Treg cluster vs acquired H’vG in Treg cluster
+#treg cluster's acquired HVG gene expression by DE gene analysis
+#persistent nonHVG in Treg cluster vs acquired H’vG in Treg cluster
 
 
 
@@ -1637,7 +1635,7 @@ write.csv(mark, 'Dropbox/Jianing/scRNA-seq TRM paper/1003/Per_Acq_treg.csv')
 
 ################################################################################
 
-能帮我做两个violin plot 分别显示CD28, NKD2D expression in quiescent vs rejecting samples within CD8A positive cells in combined Teff/Trm cluster (c03, c04, c07) ?
+#violin plot shows CD28, NKD2D expression in quiescent vs rejecting samples within CD8A positive cells in combined Teff/Trm cluster (c03, c04, c07)
 
 
 tolerant HVG cells
